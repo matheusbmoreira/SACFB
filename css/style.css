@@ -1,0 +1,104 @@
+/* Custom CSS*/
+
+html{
+	color: #f9f6f6;
+}
+
+body {
+	background-color: #e3e4e6;
+	/*background-image: url(../img/capa.png)*/
+}
+.container {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: auto;
+	border-radius: 17px;
+	max-width: auto;
+	/*background-color: #F9F6F6*/
+	background-color: #276bac
+
+}
+
+.section p {
+	color: #e3e4e6;
+	font-family: Roboto, sans-serif;
+	font-size: 18.125px;
+	font-weight: 200;
+
+}
+.section h5 {
+	font-family: Roboto, sans-serif;
+	color: #fff;
+	font-weight: 200;
+}
+
+.page-footer {
+	height: 50px;
+	width: 100%;
+
+
+}
+
+footer.page-footer{
+	background-color: #F9F6F6;
+	padding: 0px;
+	border-bottom-left-radius: 17px;
+  	border-bottom-right-radius: 17px;
+
+}
+
+img{
+	width: 150px;
+}
+
+footer.page-footer .footer-copyright {
+ /* overflow: hidden;
+  line-height: 31px;
+  color: #276bac;
+  background-color: #79bbfc;
+  margin-left: 10px;*/
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-weight: 200;
+
+
+}
+
+.btn, btn_large{
+	background-color: #F0E508;
+	color: #276BAC;
+}
+
+.btn:hover{
+	background-color:transparent;
+	color: #F0E508 ;
+	border:solid #F0E508 1px;
+}
+outline{
+	background-color:transparent;
+	color: #F0E508 ;
+	border:solid #F0E508 1px;
+}
+
+btn::-moz-selection{
+	background-color:#276BAC;
+	color: #F0E508 ;
+}
+
+span{
+
+	font-family: Roboto, sans-serif;
+  	color: #fff;
+  	font-weight: 200;
+}
+
+textarea.materialize-textarea {
+  overflow-y: hidden;
+  padding: 0px;
+  resize: none;
+  min-height: 3rem;
+}
+
+#select{
+	padding-left: 50px;
+}
