@@ -9,7 +9,7 @@ $('#btn_enviar').on('click',function(){
 	    	var mensagem = $('#mensagem').val();
             $.ajax({
               type: "POST",
-              url: '../enviar_email.php' , 
+              url: 'http://www.ingleza.com.br/sacfb/enviar_email.php', 
               data: {nome: nome, email: email, assunto: assunto, mensagem: mensagem},
               success: function(data){
                     if(data =='enviou'){
@@ -17,7 +17,7 @@ $('#btn_enviar').on('click',function(){
 			              $(form).reset();
                     }
                     else {
-                        alert('Tente Novamente!');
+                        alert('Ocorreu um erro, Tente Novamente!');
                     }
 
                 }

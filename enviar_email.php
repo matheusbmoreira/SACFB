@@ -48,7 +48,7 @@
 	if($send)
 		echo 'enviou';
 	else
-		//echo 'Error:'. $mail->ErrorInfo;
+		echo 'Error:'. $mail->ErrorInfo;
 		echo 'nao';
 
 ?>
