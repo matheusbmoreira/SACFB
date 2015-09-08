@@ -1,5 +1,6 @@
 <?php
- 
+ 	
+ 	if (!empty($_POST)){
 	
 	//require_once('phpmailer/class.phpmailer.php');
 	
@@ -48,9 +49,9 @@
 	$send = $mail->Send();
 
 	if($send)
-		echo 'Enviado com sucesso';
+		echo 's';
 	else
 		//echo 'Error:'. $mail->ErrorInfo;
-		echo 'Email nao enviado, Tente novamente!';
-
+		echo 'n';
+	}
 ?>
