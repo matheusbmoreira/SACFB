@@ -38,17 +38,19 @@
 	$mail->CharSet 	= 'utf-8';
 	$mail->Wordwrap = 70;
 
+	$nome 	= $_POST['nome'];
+	$email 	= $_POST['email'];
 	$mail->Subject 	= $_POST['idassunto'];
 	$mail->Body 	= $_POST['idmensagem'];
 	$mail->AltBody	= 'Enviando msg phpmailer';
 
-
+	
 	$send = $mail->Send();
 
 	if($send)
-		echo 'enviou';
+		echo 'Enviado com sucesso';
 	else
-		echo 'Error:'. $mail->ErrorInfo;
-		echo 'nao';
+		//echo 'Error:'. $mail->ErrorInfo;
+		echo 'Email nao enviado, Tente novamente!';
 
 ?>
